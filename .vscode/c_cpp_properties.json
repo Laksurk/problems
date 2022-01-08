@@ -1,0 +1,35 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "D:/mingw64/include",
+                "D:/mingw64/x86_64-w64-mingw32/include",
+                "D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include",
+                "D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++",
+                "E:/problems/tools"
+            ],
+            "defines": [
+                "_DEBUG"
+            ],
+            "windowsSdkVersion": "10.0.18362.0",
+            "compilerPath": "D:/mingw64/bin/g++.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64",
+            "compilerArgs": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}.exe",
+                "-std=c++14",
+                "-Wall",
+                "-O2",
+                "-I",
+                "E:/problems/tools"
+            ]
+        }
+    ],
+    "version": 4
+}
